@@ -1,0 +1,7 @@
+CREATE TABLE INGREDIENT (
+  name VARCHAR(255) NOT NULL PRIMARY KEY,
+  contains_lactose BOOLEAN NOT NULL,
+  vegetarian BOOLEAN NOT NULL,
+  vegan BOOLEAN NOT NULL,
+  gluten_free BOOLEAN NOT NULL
+);
